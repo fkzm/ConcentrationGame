@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42E8DCD22185EA5900C96220 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E8DCD12185EA5900C96220 /* Concentration.swift */; };
+		42E8DCD42185ECD500C96220 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E8DCD32185ECD500C96220 /* Card.swift */; };
 		AC6924AF217EF799007161A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6924AE217EF799007161A3 /* AppDelegate.swift */; };
 		AC6924B1217EF799007161A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6924B0217EF799007161A3 /* ViewController.swift */; };
 		AC6924B4217EF799007161A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6924B2217EF799007161A3 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42E8DCD12185EA5900C96220 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		42E8DCD32185ECD500C96220 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		AC6924AB217EF799007161A3 /* NewConcentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewConcentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6924AE217EF799007161A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC6924B0217EF799007161A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,9 +58,11 @@
 		AC6924AD217EF799007161A3 /* NewConcentration */ = {
 			isa = PBXGroup;
 			children = (
+				AC6924BA217EF79B007161A3 /* Info.plist */,
+				42E8DCD32185ECD500C96220 /* Card.swift */,
+				42E8DCD12185EA5900C96220 /* Concentration.swift */,
 				AC6924B0217EF799007161A3 /* ViewController.swift */,
 				AC6924B2217EF799007161A3 /* Main.storyboard */,
-				AC6924BA217EF79B007161A3 /* Info.plist */,
 				AC8338BE21819B730052D5ED /* Supporting Files */,
 			);
 			path = NewConcentration;
@@ -145,6 +151,8 @@
 			files = (
 				AC6924B1217EF799007161A3 /* ViewController.swift in Sources */,
 				AC6924AF217EF799007161A3 /* AppDelegate.swift in Sources */,
+				42E8DCD22185EA5900C96220 /* Concentration.swift in Sources */,
+				42E8DCD42185ECD500C96220 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
